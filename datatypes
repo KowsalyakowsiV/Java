@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter a byte value"); //8 bit
+        byte byteValue=sc.nextByte();
+        System.out.println("Enter a short  value"); // 16 bit
+        short shortValue=sc.nextShort(); 
+        System.out.println("Enter an Integer  value"); // 32 bit
+        int intValue=sc.nextInt();
+        System.out.println("Enter a Long  value"); // 64 bit
+        long longValue = sc.nextLong();
+        System.out.println("Enter a float value");
+        float floatValue = sc.nextFloat();
+        System.out.println("Enter a double value");
+        double doubleValue = sc.nextDouble();
+        boolean booleanValue = true;
+        System.out.println(booleanValue);
+        System.out.println("Enter an alphabet");
+        char charValue = sc.next().charAt(0);
+        System.out.println(charValue);
+	}
+}
