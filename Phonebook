@@ -1,0 +1,19 @@
+class Phonebook{
+    Phonebook(){
+    System.out.println("Kowsalya");
+    System.out.println("8939717108");
+    }
+}
+class Inherit extends  Phonebook{
+    Inherit(){
+        super();
+    }
+
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    Inherit v =new Inherit();
+		
+	}
+}
